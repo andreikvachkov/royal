@@ -432,7 +432,7 @@ header.scroll .header__menu-btn svg rect {
         width: 85%;
         font-size: 1.125rem;
         letter-spacing: -0.0225rem;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
     }
 }
 /* two-section end  */
@@ -534,6 +534,10 @@ header.scroll .header__menu-btn svg rect {
         font-size: 2.1875rem;
         letter-spacing: 0.1094rem;
         gap: 1.125rem;
+        align-items: center;
+    }
+    .running_line__item::before {
+        margin-bottom: 0;
     }
     .three-section__wrap {
         display: flex;
@@ -1177,6 +1181,8 @@ header.scroll .header__menu-btn svg rect {
     .price-section_right__title {
         font-size: 3.75rem;
         letter-spacing: 0.075rem;
+        padding-bottom: 0.5rem;
+        margin-top: 0;
     }
     .price-section_right__text {
         margin-top: 1rem;
@@ -2190,7 +2196,7 @@ header.scroll .header__menu-btn svg rect {
         padding: 1.875rem 0 3.75rem;
     }
     .mobile-menu__wrap nav ul li {
-        height: auto;
+        
     }
     .mobile-menu__wrap nav ul li a {
         font-size: 3.75rem;
