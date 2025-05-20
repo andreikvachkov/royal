@@ -2196,7 +2196,7 @@ header.scroll .header__menu-btn svg rect {
         padding: 1.875rem 0 3.75rem;
     }
     .mobile-menu__wrap nav ul li {
-        
+        height: 4.6875rem;
     }
     .mobile-menu__wrap nav ul li a {
         font-size: 3.75rem;
