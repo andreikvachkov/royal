@@ -96,13 +96,6 @@ function openMenu() {
     $('body').addClass('no-scroll');
 }
 
-function closeMenu() {
-    $('.mobile-menu').removeClass('active');
-    $('body').removeClass('no-scroll');
-}
-
-$('.mobile-menu__header__menu-btn').on('click', closeMenu);
-
 $('.header__menu-btn').on('click', openMenu);
 
 
