@@ -335,6 +335,10 @@ header.scroll .header__menu-btn svg rect {
     border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
     margin-top: -1.875rem;
 }
+.macos .two-section__title {
+    margin: 0;
+    padding-bottom: 1.3125rem;
+}
 .two-section__subtitle {
     width: 39.375rem;
     color: #fff;

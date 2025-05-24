@@ -29,6 +29,11 @@
 </head>
 
 <body>
+    <script>
+        if (navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
+            document.body.classList.add('macos');
+        }
+    </script>
     <header id="header">
         <div class="container">
             <div class="header__wrap">
