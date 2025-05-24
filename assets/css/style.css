@@ -488,7 +488,7 @@ header.scroll .header__menu-btn svg rect {
     gap: 2.125rem;
 }
 .macos .running_line__item {
-    align-items: start;
+    align-items: center;
 }
 .running_line__item::before {
     content: "";
@@ -1396,7 +1396,7 @@ header.scroll .header__menu-btn svg rect {
     border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
 }
 .macos .video__title {
-    padding-bottom: 0;
+    padding-bottom: 1rem;
 }
 .video__text {
     color: #fff;
@@ -1668,6 +1668,9 @@ header.scroll .header__menu-btn svg rect {
     background-size: 100%;
     width: 0.75rem;
     height: 1.5rem;
+}
+.macos .news__btn::after {
+    margin-top: 0.1875rem
 }
 .news__main {
     margin-top: 2.5rem;
