@@ -595,6 +595,9 @@ header.scroll .header__menu-btn svg rect {
         letter-spacing: 0.15rem;
         padding: 0;
     }
+    .macos .three-section__text {
+        padding: 0 0;
+    }
 }
 /* three-section end  */
 
@@ -1335,7 +1338,7 @@ header.scroll .header__menu-btn svg rect {
     height: 32.4375rem;
     margin-top: 2.5rem;
     overflow: visible;
-    margin-bottom: 3.375rem;
+    margin-bottom: 3.625rem;
 }
 .gallery__owl .owl-stage-outer {
     overflow: visible;
@@ -1696,7 +1699,7 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: -0.03rem;
 }
 .macos .news__btn {
-    align-items: start;
+    align-items: center;
 }
 .news__btn::after {
     content: "";
@@ -1708,7 +1711,7 @@ header.scroll .header__menu-btn svg rect {
     height: 1.5rem;
 }
 .macos .news__btn::after {
-    margin-top: 0.1875rem;
+    margin-top: 0;
 }
 .news__main {
     margin-top: 2.5rem;
