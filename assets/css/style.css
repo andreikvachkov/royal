@@ -258,6 +258,9 @@ header.scroll .header__menu-btn svg rect {
     align-items: center;
     justify-content: center;
 }
+.macos .hero__btn {
+    line-height: 90%;
+}
 .hero__btn:hover {
     box-shadow: 0rem 0.75rem 3.375rem 0rem rgba(171, 2, 1, 0.85);
 }
@@ -288,8 +291,9 @@ header.scroll .header__menu-btn svg rect {
     .hero__btn {
         font-size: 0.75rem;
         letter-spacing: -0.0075rem;
-        padding: 1.125rem 1.5rem;
-        margin-top: 1.25rem;
+        padding: 0 1.5rem;
+        margin-top: 2.5rem;
+        height: 3rem;
     }
     .hero__btn:hover {
         box-shadow: none;
