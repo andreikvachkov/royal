@@ -98,6 +98,13 @@ function openMenu() {
 
 $('.header__menu-btn').on('click', openMenu);
 
+function closeMenu() {
+    $('.mobile-menu').removeClass('active');
+    $('body').removeClass('no-scroll');
+}
+
+$('.mobile-menu__header__menu-btn').on('click', closeMenu);
+
 
 function openPopupGallery() {
     const imgSrc = $(this).find('img').attr('src');

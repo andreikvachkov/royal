@@ -369,6 +369,7 @@ header.scroll .header__menu-btn svg rect {
     position: relative;
     z-index: 2;
 }
+
 .two-section__bottom__count {
     color: #fff;
     text-align: center;
@@ -379,6 +380,10 @@ header.scroll .header__menu-btn svg rect {
     line-height: 100%;
     margin-top: -8.75rem;
     padding-bottom: 4.375rem;
+}
+.macos .two-section__bottom__count {
+    margin-top: 0;
+    padding-bottom: 0;
 }
 .two-section__bottom__text {
     width: 26.375rem;
@@ -458,6 +463,9 @@ header.scroll .header__menu-btn svg rect {
     user-select: none;
     margin-top: -1.25rem;
 }
+.macos .running_line__row {
+    margin-top: 0;
+}
 .running_line__row__items {
     display: flex;
     gap: 2.125rem;
@@ -479,6 +487,9 @@ header.scroll .header__menu-btn svg rect {
     align-items: end;
     gap: 2.125rem;
 }
+.macos .running_line__item {
+    align-items: start;
+}
 .running_line__item::before {
     content: "";
     width: 0.25rem;
@@ -486,6 +497,9 @@ header.scroll .header__menu-btn svg rect {
     border-radius: 0.25rem;
     background: #fff;
     margin-bottom: 0.9375rem;
+}
+.macos .running_line__item::before {
+    margin-bottom: 0;
 }
 .running_line .running_line__row .running_line__row__items.marquee {
     animation: scroll-left 35s linear infinite;
@@ -523,6 +537,9 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: 0.225rem;
     text-align: center;
     padding: 0 3.125rem 2.5rem;
+}
+.macos .three-section__text {
+    padding: 0 3.125rem 0;
 }
 .three-section__bg_mob {
     display: none;
@@ -619,6 +636,9 @@ header.scroll .header__menu-btn svg rect {
     line-height: 110%;
     letter-spacing: 0.12rem;
     padding-bottom: 0.6875rem;
+}
+.macos .four-section__content__top .left .name {
+    padding-bottom: 0;
 }
 .four-section__content__img {
     width: 6.875rem;
@@ -725,6 +745,9 @@ header.scroll .header__menu-btn svg rect {
     line-height: 110%;
     letter-spacing: 0.12rem;
     padding-bottom: 0.6875rem;
+}
+.macos .five-section__content__top .left .name {
+    padding-bottom: 0;
 }
 .five-section__content__img {
     width: 6.875rem;
@@ -833,6 +856,9 @@ header.scroll .header__menu-btn svg rect {
     line-height: 110%;
     letter-spacing: 0.12rem;
     padding-bottom: 0.6875rem;
+}
+.macos .six-section__content__top .left .name {
+    padding-bottom: 0;
 }
 .six-section__content__img {
     width: 6.875rem;
@@ -946,6 +972,10 @@ header.scroll .header__menu-btn svg rect {
     padding-bottom: 1.25rem;
     margin-top: -0.9375rem;
 }
+.macos .price-section_left__title {
+    padding-bottom: 0;
+    margin-top: 0;
+}
 .price-section_left__text {
     margin-top: 0.625rem;
     margin-bottom: 1.0625rem;
@@ -1002,6 +1032,9 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: 0.0563rem;
     padding-bottom: 1.25rem;
 }
+.macos .price-section_left__price {
+    padding-bottom: 0;
+}
 .price-section_left__btn {
     border-radius: 0.375rem;
     background: #fff;
@@ -1039,6 +1072,10 @@ header.scroll .header__menu-btn svg rect {
     border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.2);
     padding-bottom: 1.25rem;
     margin-top: -0.9375rem;
+}
+.macos .price-section_right__title {
+    padding-bottom: 0;
+    margin-top: 0;
 }
 .price-section_right__text {
     margin-top: 0.625rem;
@@ -1095,6 +1132,9 @@ header.scroll .header__menu-btn svg rect {
     line-height: 130%;
     letter-spacing: 0.0563rem;
     padding-bottom: 1.25rem;
+}
+.macos .price-section_right__price {
+    padding-bottom: 0;
 }
 .price-section_right__btn {
     border-radius: 0.375rem;
@@ -1262,6 +1302,9 @@ header.scroll .header__menu-btn svg rect {
     text-align: center;
     padding-bottom: 1.25rem;
 }
+.macos .gallery__title {
+    padding-bottom: 0;
+}
 .gallery__owl {
     width: 39.375rem;
     height: 32.4375rem;
@@ -1352,6 +1395,9 @@ header.scroll .header__menu-btn svg rect {
     width: 100%;
     border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
 }
+.macos .video__title {
+    padding-bottom: 0;
+}
 .video__text {
     color: #fff;
     text-align: center;
@@ -1384,6 +1430,9 @@ header.scroll .header__menu-btn svg rect {
     padding-bottom: 1.25rem;
     width: 59.5rem;
     text-align: center;
+}
+.macos .video__bottom-text {
+    padding-bottom: 0;
 }
 @media (max-width: 768px) {
     .video {
@@ -1471,6 +1520,10 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: 0.0813rem;
     padding-bottom: 2.1875rem;
 }
+.macos .contacts__title {
+    padding-bottom: 0;
+    margin-bottom: 0.5rem;
+}
 .contacts__text {
     color: #fff;
     font-family: Desire;
@@ -1480,6 +1533,9 @@ header.scroll .header__menu-btn svg rect {
     line-height: 110%;
     letter-spacing: 0.09rem;
     padding-bottom: 1.25rem;
+}
+.macos .contacts__text {
+    padding-bottom: 0;
 }
 .contacts__btn {
     color: #000;
@@ -1585,6 +1641,10 @@ header.scroll .header__menu-btn svg rect {
     padding-bottom: 1.875rem;
     margin-top: -1.25rem;
 }
+.macos .news__title {
+    padding-bottom: 0;
+    margin-top: 0;
+}
 .news__btn {
     display: flex;
     align-items: center;
@@ -1596,6 +1656,9 @@ header.scroll .header__menu-btn svg rect {
     font-weight: 400;
     line-height: 150%;
     letter-spacing: -0.03rem;
+}
+.macos .news__btn {
+    align-items: start;
 }
 .news__btn::after {
     content: "";
@@ -1647,6 +1710,14 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: 0.025rem;
     margin-top: -1.5625rem;
     padding-bottom: 0.1875rem;
+}
+.macos .news__item__name {
+    margin-top: 0;
+    padding-bottom: 0;
+}
+.macos .news__item__name {
+    margin-top: 0;
+    padding-bottom: 0;
 }
 .news__item__text {
     color: rgba(255, 255, 255, 0.7);
@@ -1741,6 +1812,9 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: 0.0563rem;
     padding-right: 1.25rem;
     padding-bottom: 1.25rem;
+}
+.macos .payment__title {
+    padding-bottom: 0;
 }
 .payment__main {
     display: flex;
@@ -2060,6 +2134,10 @@ header.scroll .header__menu-btn svg rect {
     display: flex;
     align-items: end;
 }
+.macos .mobile-menu__wrap nav ul li {
+    height: auto;
+    align-items: center;
+}
 .mobile-menu__wrap nav ul li a {
     color: #fff;
     font-family: Desire;
@@ -2069,6 +2147,9 @@ header.scroll .header__menu-btn svg rect {
     line-height: 150%;
     letter-spacing: 0.1125rem;
     transition: all 0.3s ease;
+}
+.macos .mobile-menu__wrap nav ul li a {
+    line-height: 100%;
 }
 .mobile-menu__wrap nav ul li a:hover {
     color: #c30b17;
