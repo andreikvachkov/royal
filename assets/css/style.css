@@ -246,13 +246,17 @@ header.scroll .header__menu-btn svg rect {
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 1;
+    line-height: 4rem;
     letter-spacing: -0.01rem;
     text-transform: uppercase;
     padding: 1.5rem 2rem;
     border-radius: 0.375rem;
     background: #fff;
     transition: all 0.3s ease;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .hero__btn:hover {
     box-shadow: 0rem 0.75rem 3.375rem 0rem rgba(171, 2, 1, 0.85);
