@@ -1811,7 +1811,7 @@ header.scroll .header__menu-btn svg rect {
     .news__owl .owl-dots {
         display: block;
         text-align: center;
-        margin-top: 2.5rem;
+        margin-top: 2.3rem;
         position: relative;
     }
     .news__owl button.owl-dot {
@@ -2457,3 +2457,94 @@ header.scroll .header__menu-btn svg rect {
 }
 
 /* gallery_popup  end  */
+
+/* policy-page start  */
+
+.policy-page {
+    margin: 7.5rem 0;
+}
+.policy-page__wrap {
+    padding: 0 6.75rem;
+}
+.policy-page__title {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-family: Desire;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.225rem;
+    padding-bottom: 1.5625rem;
+    margin-top: -1.875rem;
+}
+.macos .policy-page__title {
+    padding: 0;
+    margin: 0;
+}
+.policy-page__content {
+    margin-top: 2.5rem;
+    padding: 1.25rem;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.2);
+}
+.policy-page__date {
+    color: #fff;
+    font-family: Desire;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.03rem;
+    margin-bottom: 1.25rem;
+}
+.policy-page__content,
+.policy-page__content a {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Helvetica Neue";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.01rem;
+}
+.policy-page__content ul {
+    padding-left: 1.25rem;
+}
+.policy-page__content ul li {
+    list-style-type: disc;
+}
+.policy-page__content h2,
+.policy-page__content h3,
+.policy-page__content h4 {
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .policy-page {
+        margin: 5.375rem 0 6.25rem;
+    }
+    .policy-page__wrap {
+        padding: 0;
+    }
+    .policy-page__title {
+        font-size: 3.75rem;
+        letter-spacing: 0.15rem;
+        padding-bottom: 1.25rem;
+        margin-top: -1.25rem;
+    }
+    .macos .policy-page__title {
+        padding: 0;
+        margin: 0;
+    }
+    .policy-page__date {
+        font-size: 1.5rem;
+        letter-spacing: 0.03rem;
+    }
+    .policy-page__content,
+    .policy-page__content a {
+        font-size: 0.75rem;
+        letter-spacing: -0.0075rem;
+    }
+}
+
+/* policy-page end  */
