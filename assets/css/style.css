@@ -425,6 +425,10 @@ header.scroll .header__menu-btn svg rect {
         padding-bottom: 1rem;
         margin-top: 0;
     }
+    .macos .two-section__title {
+        margin: 0;
+        padding-bottom: 1rem;
+    }
     .two-section__subtitle {
         width: 100%;
         font-size: 1.125rem;
@@ -439,6 +443,10 @@ header.scroll .header__menu-btn svg rect {
     .two-section__bottom__count {
         font-size: 14.375rem;
         margin-top: 1rem;
+        padding-bottom: 0;
+    }
+    .macos .two-section__bottom__count {
+        margin-top: 0;
         padding-bottom: 0;
     }
     .two-section__bottom__text {
@@ -550,6 +558,9 @@ header.scroll .header__menu-btn svg rect {
     }
     .running_line__row {
         gap: 1.125rem;
+        margin-top: 0;
+    }
+    .macos .running_line__row {
         margin-top: 0;
     }
     .running_line__row__items {
@@ -1188,6 +1199,10 @@ header.scroll .header__menu-btn svg rect {
         padding-bottom: 0.5rem;
         margin-top: 0;
     }
+    .macos .price-section_left__title {
+        padding-bottom: 0.5rem;
+        margin-top: 0;
+    }
     .price-section_left__text {
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -1214,6 +1229,9 @@ header.scroll .header__menu-btn svg rect {
         letter-spacing: 0.0563rem;
         padding-bottom: 0;
     }
+    .macos .price-section_left__price {
+        padding-bottom: 0;
+    }
     .price-section_left__btn {
         padding: 1.125rem 1.5rem;
         font-size: 0.75rem;
@@ -1230,6 +1248,10 @@ header.scroll .header__menu-btn svg rect {
     .price-section_right__title {
         font-size: 3.75rem;
         letter-spacing: 0.075rem;
+        padding-bottom: 0.5rem;
+        margin-top: 0;
+    }
+    .macos .price-section_right__title {
         padding-bottom: 0.5rem;
         margin-top: 0;
     }
@@ -1257,6 +1279,9 @@ header.scroll .header__menu-btn svg rect {
     .price-section_right__price {
         font-size: 2.8125rem;
         letter-spacing: 0.0563rem;
+        padding-bottom: 0;
+    }
+    .macos .price-section_right__price {
         padding-bottom: 0;
     }
     .price-section_right__btn {
@@ -1354,6 +1379,9 @@ header.scroll .header__menu-btn svg rect {
         padding-bottom: 0;
         width: 90%;
     }
+    .macos .gallery__title {
+        padding-bottom: 0;
+    }
     .gallery__owl .item {
         height: 32.4375rem;
     }
@@ -1445,6 +1473,9 @@ header.scroll .header__menu-btn svg rect {
         letter-spacing: 0.15rem;
         padding-bottom: 1rem;
         padding-right: 4.375rem;
+    }
+    .macos .video__title {
+        padding-bottom: 1rem;
     }
     .video__text {
         text-align: left;
@@ -1592,12 +1623,19 @@ header.scroll .header__menu-btn svg rect {
         padding-bottom: 0;
         margin-bottom: 1rem;
     }
+    .macos .contacts__title {
+        padding-bottom: 0;
+        margin-bottom: 1rem;
+    }
     .contacts__text {
         font-size: 2.5rem;
         letter-spacing: 0.075rem;
         padding-bottom: 0;
         text-align: center;
         width: 70%;
+    }
+    .macos .contacts__text {
+        padding-bottom: 0;
     }
     .contacts__btn {
         font-size: 0.75rem;
@@ -1670,7 +1708,7 @@ header.scroll .header__menu-btn svg rect {
     height: 1.5rem;
 }
 .macos .news__btn::after {
-    margin-top: 0.1875rem
+    margin-top: 0.1875rem;
 }
 .news__main {
     margin-top: 2.5rem;
@@ -1718,10 +1756,6 @@ header.scroll .header__menu-btn svg rect {
     margin-top: 0;
     padding-bottom: 0;
 }
-.macos .news__item__name {
-    margin-top: 0;
-    padding-bottom: 0;
-}
 .news__item__text {
     color: rgba(255, 255, 255, 0.7);
     font-family: "Helvetica Neue";
@@ -1752,10 +1786,17 @@ header.scroll .header__menu-btn svg rect {
         padding-bottom: 0;
         margin-top: 0;
     }
+    .macos .news__title {
+        padding-bottom: 0;
+        margin-top: 0;
+    }
     .news__btn {
         font-size: 0.875rem;
         font-weight: 400;
         letter-spacing: -0.0175rem;
+    }
+    .macos .news__btn::after {
+        margin-top: 0;
     }
     .news__owl {
         margin-bottom: 3rem;
@@ -1789,6 +1830,10 @@ header.scroll .header__menu-btn svg rect {
         font-weight: 400;
         line-height: 150%;
         letter-spacing: 0.025rem;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .macos .news__item__name {
         margin-top: 0;
         padding-bottom: 0;
     }
@@ -1872,6 +1917,9 @@ header.scroll .header__menu-btn svg rect {
         letter-spacing: 0.0375rem;
         padding-right: 0;
         text-align: left;
+        padding-bottom: 0;
+    }
+    .macos .payment__title {
         padding-bottom: 0;
     }
     .payment__main {
@@ -2291,9 +2339,16 @@ header.scroll .header__menu-btn svg rect {
     .mobile-menu__wrap nav ul li {
         height: 4.6875rem;
     }
+    .macos .mobile-menu__wrap nav ul li {
+        height: auto;
+        align-items: center;
+    }
     .mobile-menu__wrap nav ul li a {
         font-size: 3.75rem;
         letter-spacing: 0.1125rem;
+    }
+    .macos .mobile-menu__wrap nav ul li a {
+        line-height: 100%;
     }
     .mobile-menu__wrap nav ul li a:hover {
         color: #fff;
