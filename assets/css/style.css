@@ -3491,7 +3491,7 @@ header.scroll .header__menu-btn svg rect {
         font-size: 3.75rem;
         letter-spacing: 0.075rem;
         max-width: 100%;
-        padding-bottom: 0.9375rem;
+        padding-bottom: 0;
     }
     .club-hero__bottom {
         font-size: 1.125rem;
