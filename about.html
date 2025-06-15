@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Garden</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <script>
+        if (navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
+            document.body.classList.add('macos');
+        }
+    </script>
+    <header id="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="col-left">
+                    <a href="" class="header__logo">
+                        <img src="assets/images/header_logo.png" alt="" class="white">
+                        <img src="assets/images/header_logo_black.png" alt="" class="black">
+                    </a>
+                </div>
+                <div class="col-center">
+                    <a href="" class="header__btn">
+                        Contact a manager
+                    </a>
+                </div>
+                <div class="col-right">
+                    <button class="header__menu-btn">
+                        <svg width="26" height="13" viewBox="0 0 26 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" width="25" height="1" fill="white" />
+                            <rect x="0.5" y="6" width="25" height="1" fill="white" />
+                            <rect x="0.5" y="12" width="25" height="1" fill="white" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about-hero">
+        <div class="container">
+            <div class="about-hero__wrap">
+                <div class="about-hero__content">
+                    <img src="assets/images/about-hero_logo.png" alt="" class="about-hero__logo">
+                    <div class="about-hero__text">
+                        Easy, Sexy, Luxurious
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aboit-slider">
+        <div class="container">
+            <div class="aboit-slider__wrap">
+                <div class="swiper aboit-slider__swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="" class="aboit-slider__slider">
+                                <div class="aboit-slider__slider__img">
+                                    <img src="assets/images/about-alider_img.png" alt="">
+                                    <p class="aboit-slider__slider__name">
+                                        Personalized selection
+                                    </p>
+                                </div>
+                                <div class="aboit-slider__slider__content">
+                                    <div class="aboit-slider__slider__text">
+                                        <p>
+                                            Every man has a unique taste. Our goal is to find the woman who perfectly
+                                            matches his preferences
+                                        </p>
+                                        <br>
+                                        <ul>
+                                            <li>
+                                                We will select a model from our catalog who fits your criteria
+                                                perfectly: age,
+                                                personality, breast size, and more
+                                            </li>
+                                            <br>
+                                            <li>
+                                                Been following a particular beauty on Instagram for a while? Give us
+                                                some time,
+                                                and we will arrange a meeting just for you
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <p>
+                                            At Royal Garden, nothing is impossible
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="aboit-slider__slider">
+                                <div class="aboit-slider__slider__img">
+                                    <img src="assets/images/about-alider_img.png" alt="">
+                                    <p class="aboit-slider__slider__name">
+                                        Personalized selection
+                                    </p>
+                                </div>
+                                <div class="aboit-slider__slider__content">
+                                    <div class="aboit-slider__slider__text">
+                                        <p>
+                                            Every man has a unique taste. Our goal is to find the woman who perfectly
+                                            matches his preferences
+                                        </p>
+                                        <br>
+                                        <ul>
+                                            <li>
+                                                We will select a model from our catalog who fits your criteria
+                                                perfectly: age,
+                                                personality, breast size, and more
+                                            </li>
+                                            <br>
+                                            <li>
+                                                Been following a particular beauty on Instagram for a while? Give us
+                                                some time,
+                                                and we will arrange a meeting just for you
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <p>
+                                            At Royal Garden, nothing is impossible
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="aboit-slider__slider">
+                                <div class="aboit-slider__slider__img">
+                                    <img src="assets/images/about-alider_img.png" alt="">
+                                    <p class="aboit-slider__slider__name">
+                                        Personalized selection
+                                    </p>
+                                </div>
+                                <div class="aboit-slider__slider__content">
+                                    <div class="aboit-slider__slider__text">
+                                        <p>
+                                            Every man has a unique taste. Our goal is to find the woman who perfectly
+                                            matches his preferences
+                                        </p>
+                                        <br>
+                                        <ul>
+                                            <li>
+                                                We will select a model from our catalog who fits your criteria
+                                                perfectly: age,
+                                                personality, breast size, and more
+                                            </li>
+                                            <br>
+                                            <li>
+                                                Been following a particular beauty on Instagram for a while? Give us
+                                                some time,
+                                                and we will arrange a meeting just for you
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <p>
+                                            At Royal Garden, nothing is impossible
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="aboit-slider__slider">
+                                <div class="aboit-slider__slider__img">
+                                    <img src="assets/images/about-alider_img.png" alt="">
+                                    <p class="aboit-slider__slider__name">
+                                        Personalized selection
+                                    </p>
+                                </div>
+                                <div class="aboit-slider__slider__content">
+                                    <div class="aboit-slider__slider__text">
+                                        <p>
+                                            Every man has a unique taste. Our goal is to find the woman who perfectly
+                                            matches his preferences
+                                        </p>
+                                        <br>
+                                        <ul>
+                                            <li>
+                                                We will select a model from our catalog who fits your criteria
+                                                perfectly: age,
+                                                personality, breast size, and more
+                                            </li>
+                                            <br>
+                                            <li>
+                                                Been following a particular beauty on Instagram for a while? Give us
+                                                some time,
+                                                and we will arrange a meeting just for you
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <p>
+                                            At Royal Garden, nothing is impossible
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aboit-slider__swiper__pagination">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__top">
+                <img src="assets/images/footer_logo_mob.png" alt="" class="footer__top__logo-mob">
+                <div class="footer__left">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Clubs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__right">
+                    <div class="footer__contact">
+                        <a href="" class="footer__contact__link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="50" height="50" rx="25" fill="white" fill-opacity="0.16" />
+                                <path
+                                    d="M35.8337 25.0003C35.8337 19.0203 30.9803 14.167 25.0003 14.167C19.0203 14.167 14.167 19.0203 14.167 25.0003C14.167 30.2437 17.8937 34.6095 22.8337 35.617V28.2503H20.667V25.0003H22.8337V22.292C22.8337 20.2012 24.5345 18.5003 26.6253 18.5003H29.3337V21.7503H27.167C26.5712 21.7503 26.0837 22.2378 26.0837 22.8337V25.0003H29.3337V28.2503H26.0837V35.7795C31.5545 35.2378 35.8337 30.6228 35.8337 25.0003Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="" class="footer__contact__link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="50" height="50" rx="25" fill="white" fill-opacity="0.16" />
+                                <path
+                                    d="M25.0003 14.167C19.0203 14.167 14.167 19.0203 14.167 25.0003C14.167 30.9803 19.0203 35.8337 25.0003 35.8337C30.9803 35.8337 35.8337 30.9803 35.8337 25.0003C35.8337 19.0203 30.9803 14.167 25.0003 14.167ZM30.027 21.5337C29.8645 23.2453 29.1603 27.4053 28.8028 29.3228C28.6512 30.1353 28.3478 30.4062 28.0662 30.4387C27.4378 30.4928 26.9612 30.027 26.3545 29.6262C25.4012 28.9978 24.8595 28.6078 23.9387 28.0012C22.8662 27.297 23.5595 26.907 24.177 26.2787C24.3395 26.1162 27.1128 23.592 27.167 23.3645C27.1745 23.33 27.1735 23.2943 27.1641 23.2603C27.1546 23.2263 27.137 23.1951 27.1128 23.1695C27.0478 23.1153 26.9612 23.137 26.8853 23.1478C26.7878 23.1695 25.2712 24.177 22.3137 26.1703C21.8803 26.4628 21.4903 26.6145 21.1437 26.6037C20.7537 26.5928 20.017 26.387 19.4645 26.2028C18.782 25.9862 18.2512 25.867 18.2945 25.4878C18.3162 25.2928 18.587 25.0978 19.0962 24.892C22.2595 23.5162 24.3612 22.6062 25.412 22.1728C28.4237 20.9162 29.0412 20.6995 29.4528 20.6995C29.5395 20.6995 29.7453 20.7212 29.8753 20.8295C29.9837 20.9162 30.0162 21.0353 30.027 21.122C30.0162 21.187 30.0378 21.382 30.027 21.5337Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="" class="footer__contact__link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="50" height="50" rx="25" fill="white" fill-opacity="0.16" />
+                                <path
+                                    d="M20.4503 14.167H29.5503C33.017 14.167 35.8337 16.9837 35.8337 20.4503V29.5503C35.8337 31.2168 35.1717 32.815 33.9933 33.9933C32.815 35.1717 31.2168 35.8337 29.5503 35.8337H20.4503C16.9837 35.8337 14.167 33.017 14.167 29.5503V20.4503C14.167 18.7839 14.829 17.1857 16.0073 16.0073C17.1857 14.829 18.7839 14.167 20.4503 14.167ZM20.2337 16.3337C19.1993 16.3337 18.2073 16.7446 17.4759 17.4759C16.7446 18.2073 16.3337 19.1993 16.3337 20.2337V29.767C16.3337 31.9228 18.0778 33.667 20.2337 33.667H29.767C30.8013 33.667 31.7933 33.2561 32.5247 32.5247C33.2561 31.7933 33.667 30.8013 33.667 29.767V20.2337C33.667 18.0778 31.9228 16.3337 29.767 16.3337H20.2337ZM30.6878 17.9587C31.047 17.9587 31.3914 18.1013 31.6454 18.3553C31.8993 18.6092 32.042 18.9537 32.042 19.3128C32.042 19.672 31.8993 20.0164 31.6454 20.2704C31.3914 20.5243 31.047 20.667 30.6878 20.667C30.3287 20.667 29.9842 20.5243 29.7303 20.2704C29.4763 20.0164 29.3337 19.672 29.3337 19.3128C29.3337 18.9537 29.4763 18.6092 29.7303 18.3553C29.9842 18.1013 30.3287 17.9587 30.6878 17.9587ZM25.0003 19.5837C26.4369 19.5837 27.8147 20.1543 28.8305 21.1702C29.8463 22.186 30.417 23.5637 30.417 25.0003C30.417 26.4369 29.8463 27.8147 28.8305 28.8305C27.8147 29.8463 26.4369 30.417 25.0003 30.417C23.5637 30.417 22.186 29.8463 21.1702 28.8305C20.1543 27.8147 19.5837 26.4369 19.5837 25.0003C19.5837 23.5637 20.1543 22.186 21.1702 21.1702C22.186 20.1543 23.5637 19.5837 25.0003 19.5837ZM25.0003 21.7503C24.1384 21.7503 23.3117 22.0927 22.7022 22.7022C22.0927 23.3117 21.7503 24.1384 21.7503 25.0003C21.7503 25.8623 22.0927 26.6889 22.7022 27.2984C23.3117 27.9079 24.1384 28.2503 25.0003 28.2503C25.8623 28.2503 26.6889 27.9079 27.2984 27.2984C27.9079 26.6889 28.2503 25.8623 28.2503 25.0003C28.2503 24.1384 27.9079 23.3117 27.2984 22.7022C26.6889 22.0927 25.8623 21.7503 25.0003 21.7503Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="" class="footer__btn">
+                        Join the club
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom__wrap">
+                    <img src="assets/images/footer_logo.png" alt="" class="footer__bottom__logo">
+                    <div class="footer__bottom__content">
+                        <div class="col">
+                            <a href="" class="policy">
+                                Privacy policy
+                            </a>
+                        </div>
+                        <div class="col">
+                            <p class="address">
+                                27 Old Gloucester Street, London, United Kingdom, WC1N 3AX
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="copyright">
+                                © 2025 Royal Garden
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/images/footer_bg_mob.png" alt="" class="footer__bottom__bg-mob">
+        </div>
+    </footer>
+    <div class="mobile-menu">
+        <div class="mobile-menu__header">
+            <div class="container">
+                <div class="mobile-menu__header__wrap">
+                    <div class="col-left">
+                        <a href="" class="mobile-menu__header__logo">
+                            <img src="assets/images/header_logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-center">
+                        <a href="" class="mobile-menu__header__btn">
+                            Contact a manager
+                        </a>
+                    </div>
+                    <div class="col-right">
+                        <button class="mobile-menu__header__menu-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                fill="none">
+                                <path
+                                    d="M4.54241 20.9L3.59961 19.9572L11.0568 12.5L3.59961 5.04278L4.54241 4.09998L11.9996 11.5572L19.4568 4.09998L20.3996 5.04278L12.9424 12.5L20.3996 19.9572L19.4568 20.9L11.9996 13.4428L4.54241 20.9Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="mobile-menu__wrap">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Clubs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu__bottom">
+                    <div class="mobile-menu__socies">
+                        <a href="" class="mobile-menu__link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="50" height="50" rx="25" fill="white" fill-opacity="0.16" />
+                                <path
+                                    d="M35.8327 25C35.8327 19.02 30.9793 14.1666 24.9993 14.1666C19.0193 14.1666 14.166 19.02 14.166 25C14.166 30.2433 17.8927 34.6091 22.8327 35.6166V28.25H20.666V25H22.8327V22.2916C22.8327 20.2008 24.5335 18.5 26.6243 18.5H29.3327V21.75H27.166C26.5702 21.75 26.0827 22.2375 26.0827 22.8333V25H29.3327V28.25H26.0827V35.7791C31.5535 35.2375 35.8327 30.6225 35.8327 25Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="" class="mobile-menu__link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="50" height="50" rx="25" fill="white" fill-opacity="0.16" />
+                                <path
+                                    d="M24.9993 14.1666C19.0193 14.1666 14.166 19.02 14.166 25C14.166 30.98 19.0193 35.8333 24.9993 35.8333C30.9793 35.8333 35.8327 30.98 35.8327 25C35.8327 19.02 30.9793 14.1666 24.9993 14.1666ZM30.026 21.5333C29.8635 23.245 29.1593 27.405 28.8018 29.3225C28.6502 30.135 28.3468 30.4058 28.0652 30.4383C27.4368 30.4925 26.9602 30.0266 26.3535 29.6258C25.4002 28.9975 24.8585 28.6075 23.9377 28.0008C22.8652 27.2966 23.5585 26.9066 24.176 26.2783C24.3385 26.1158 27.1118 23.5916 27.166 23.3641C27.1735 23.3297 27.1725 23.2939 27.1631 23.2599C27.1537 23.2259 27.1361 23.1948 27.1118 23.1691C27.0468 23.115 26.9602 23.1366 26.8843 23.1475C26.7868 23.1691 25.2702 24.1766 22.3127 26.17C21.8793 26.4625 21.4893 26.6141 21.1427 26.6033C20.7527 26.5925 20.016 26.3866 19.4635 26.2025C18.781 25.9858 18.2502 25.8666 18.2935 25.4875C18.3152 25.2925 18.586 25.0975 19.0952 24.8916C22.2585 23.5158 24.3602 22.6058 25.411 22.1725C28.4227 20.9158 29.0402 20.6991 29.4518 20.6991C29.5385 20.6991 29.7443 20.7208 29.8743 20.8291C29.9827 20.9158 30.0152 21.035 30.026 21.1216C30.0152 21.1866 30.0368 21.3816 30.026 21.5333Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="" class="mobile-menu__link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="50" height="50" rx="25" fill="white" fill-opacity="0.16" />
+                                <path
+                                    d="M20.4493 14.1666H29.5493C33.016 14.1666 35.8327 16.9833 35.8327 20.45V29.55C35.8327 31.2164 35.1707 32.8146 33.9923 33.9929C32.814 35.1713 31.2158 35.8333 29.5493 35.8333H20.4493C16.9827 35.8333 14.166 33.0166 14.166 29.55V20.45C14.166 18.7835 14.828 17.1853 16.0064 16.007C17.1847 14.8286 18.7829 14.1666 20.4493 14.1666ZM20.2327 16.3333C19.1983 16.3333 18.2064 16.7442 17.475 17.4756C16.7436 18.207 16.3327 19.1989 16.3327 20.2333V29.7666C16.3327 31.9225 18.0768 33.6666 20.2327 33.6666H29.766C30.8004 33.6666 31.7923 33.2557 32.5237 32.5243C33.2551 31.7929 33.666 30.801 33.666 29.7666V20.2333C33.666 18.0775 31.9218 16.3333 29.766 16.3333H20.2327ZM30.6868 17.9583C31.046 17.9583 31.3904 18.101 31.6444 18.3549C31.8983 18.6089 32.041 18.9533 32.041 19.3125C32.041 19.6716 31.8983 20.016 31.6444 20.27C31.3904 20.524 31.046 20.6666 30.6868 20.6666C30.3277 20.6666 29.9833 20.524 29.7293 20.27C29.4754 20.016 29.3327 19.6716 29.3327 19.3125C29.3327 18.9533 29.4754 18.6089 29.7293 18.3549C29.9833 18.101 30.3277 17.9583 30.6868 17.9583ZM24.9993 19.5833C26.4359 19.5833 27.8137 20.154 28.8295 21.1698C29.8453 22.1856 30.416 23.5634 30.416 25C30.416 26.4365 29.8453 27.8143 28.8295 28.8301C27.8137 29.8459 26.4359 30.4166 24.9993 30.4166C23.5628 30.4166 22.185 29.8459 21.1692 28.8301C20.1534 27.8143 19.5827 26.4365 19.5827 25C19.5827 23.5634 20.1534 22.1856 21.1692 21.1698C22.185 20.154 23.5628 19.5833 24.9993 19.5833ZM24.9993 21.75C24.1374 21.75 23.3107 22.0924 22.7013 22.7019C22.0918 23.3114 21.7493 24.138 21.7493 25C21.7493 25.8619 22.0918 26.6886 22.7013 27.2981C23.3107 27.9075 24.1374 28.25 24.9993 28.25C25.8613 28.25 26.688 27.9075 27.2974 27.2981C27.9069 26.6886 28.2493 25.8619 28.2493 25C28.2493 24.138 27.9069 23.3114 27.2974 22.7019C26.688 22.0924 25.8613 21.75 24.9993 21.75Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="" class="mobile-menu__btn">
+                        join the club
+                    </a>
+                    <div class="mobile-menu__bottom__footer">
+                        <div class="col">
+                            <a href="" class="mobile-menu__policy">
+                                Privacy policy
+                            </a>
+                        </div>
+                        <div class="col">
+                            <p class="mobile-menu__address">
+                                27 Old Gloucester Street, London, United Kingdom, WC1N 3AX
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="mobile-menu__copyright">
+                                © 2025 Royal Garden
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery_popup">
+        <div class="gallery_popup__wrap">
+            <button class="gallery_popup__close">
+                <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="6.51562" y="3.80762" width="25" height="1" transform="rotate(45 6.51562 3.80762)"
+                        fill="white" />
+                    <rect x="5.80664" y="21.4852" width="25" height="1" transform="rotate(-45 5.80664 21.4852)"
+                        fill="white" />
+                    <rect x="5.80664" y="21.4852" width="25" height="1" transform="rotate(-45 5.80664 21.4852)"
+                        fill="white" />
+                </svg>
+            </button>
+            <div class="gallery_popup__content">
+                <img src="assets/images/popup_gallery.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

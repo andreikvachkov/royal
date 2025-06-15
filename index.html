@@ -402,20 +402,37 @@
                     <span class="chartwo">D</span><span class="chartwo">e</span><span class="chartwo">s</span><span
                         class="chartwo">i</span><span class="chartwo">r</span><span class="chartwo">e</span>
                 </div>
-                <div class="gallery__owl owl-carousel">
-                    <div class="item">
-                        <img src="assets/images/gallery1.png" alt="">
+                <div class="gallery__owl_wrap">
+                    <div class="gallery__owl owl-carousel">
+                        <div class="item">
+                            <img src="assets/images/gallery1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/gallery1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/gallery1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/gallery1.png" alt="">
+                        </div>
                     </div>
-                    <div class="item">
-                        <img src="assets/images/gallery1.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/images/gallery1.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/images/gallery1.png" alt="">
-                    </div>
+                    <button class="gallery__owl-prev">
+                        <svg width="26" height="46" viewBox="0 0 26 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.001 45.75L0.250977 23L23.001 0.25L25.126 2.375L4.50098 23L25.126 43.625L23.001 45.75Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                    <button class="gallery__owl-next">
+                        <svg width="26" height="46" viewBox="0 0 26 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.99903 0.25L25.749 23L2.99903 45.75L0.874025 43.625L21.499 23L0.874025 2.375L2.99903 0.25Z"
+                                fill="white" />
+                        </svg>
+                    </button>
                 </div>
+
             </div>
         </div>
     </section>
@@ -429,10 +446,12 @@
                     Wherever you are — Paris, Monaco, <br>
                     or a private island — we’ll arrange the perfect meeting that exceeds all expectations
                 </div>
-                <video autoplay loop muted class="promo__bgvideo" id="bgvideo">
-                    <source src="assets/images/Video.mp4" type="video/mp4">
-                    </source>
-                </video>
+                <div class="video-wrapper">
+                    <video autoplay loop muted playsinline class="promo__bgvideo" id="bgvideo">
+                        <source src="assets/images/Video.mp4" type="video/mp4">
+                        </source>
+                    </video>
+                </div>
                 <div class="video__bottom-text">
                     <span class="charthree">W</span><span class="charthree">e</span><span class="charthree"> </span>
                     <span class="charthree">s</span><span class="charthree">e</span><span
@@ -852,6 +871,7 @@
         </div>
     </div>
     <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>
