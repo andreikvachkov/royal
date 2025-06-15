@@ -3293,6 +3293,7 @@ header.scroll .header__menu-btn svg rect {
 .macos .notfound__title {
     margin: 0;
     padding: 0;
+    margin-bottom: -1.25rem;
 }
 .notfound__subtitle {
     color: #fff;
