@@ -2845,6 +2845,10 @@ header.scroll .header__menu-btn svg rect {
     padding-bottom: 1.875rem;
     margin-top: -1.875rem;
 }
+.macos .news-page__title {
+    padding: 0;
+    margin: 0;
+}
 .news-page__content {
     margin-top: 2.5rem;
     display: grid;
@@ -3118,7 +3122,7 @@ header.scroll .header__menu-btn svg rect {
     height: 32.4375rem;
     margin-top: 2.5rem;
     overflow: visible;
-    margin-bottom: 3.625rem;
+    margin-bottom: 4.25rem;
     position: relative;
 }
 .new-page__owl .owl-stage-outer {
@@ -3233,6 +3237,9 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: 0.15rem;
     padding-bottom: 1.25rem;
 }
+.macos .news-page__more-news .news__title {
+    padding: 0;
+}
 @media (max-width: 768px) {
     .news-page__more-news {
         margin: 3.125rem 0 6.25rem;
@@ -3283,6 +3290,10 @@ header.scroll .header__menu-btn svg rect {
     margin-top: -1.875rem;
     padding-bottom: 3.125rem;
 }
+.macos .notfound__title {
+    margin: 0;
+    padding: 0;
+}
 .notfound__subtitle {
     color: #fff;
     text-align: center;
@@ -3293,6 +3304,9 @@ header.scroll .header__menu-btn svg rect {
     line-height: 110%;
     letter-spacing: -0.2125rem;
     padding-bottom: 0.625rem;
+}
+.macos .notfound__subtitle {
+    padding: 0;
 }
 .notfound__center {
     display: flex;
@@ -3312,6 +3326,10 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: 0.03rem;
     padding-bottom: 0.3125rem;
     margin-top: -0.625rem;
+}
+.macos .notfound__center h3 {
+    padding: 0;
+    margin: 0;
 }
 .notfound__text {
     width: 17.25rem;
@@ -3459,6 +3477,9 @@ header.scroll .header__menu-btn svg rect {
     max-width: 34.375rem;
     padding-bottom: 0.9375rem;
 }
+.macos .club-hero__top h1 {
+    padding-bottom: 0;
+}
 .club-hero__bottom {
     margin-top: 1rem;
     display: flex;
@@ -3530,6 +3551,10 @@ header.scroll .header__menu-btn svg rect {
     letter-spacing: 0.15rem;
     padding-bottom: 0.9375rem;
     margin-top: -0.9375rem;
+}
+.macos .club-info__name {
+    padding-bottom: 0;
+    margin-top: 0;
 }
 .club-info__text {
     color: #fff;
